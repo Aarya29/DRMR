@@ -1,0 +1,32 @@
+<div class="container-fluid pl-10 pr-10">
+  
+  <div>
+    <tabset>
+      <tab heading="PRA Report" (selectTab)="onSelect($event)">
+        <app-prareport></app-prareport>
+      </tab>
+      <tab heading="PRW Report" (selectTab)="onSelectPrw($event)">
+        <app-prwreport></app-prwreport>
+      </tab>
+      <tab heading="PRO Report">
+        <app-proreport></app-proreport>
+      </tab>
+      <tab heading="No-IOS Report">
+        <app-no-iosreport></app-no-iosreport>
+      </tab>
+      <tab heading="PRE Report">
+        <app-prereport></app-prereport>
+      </tab>
+      <tab heading="Combined Eg">
+        <app-combined-eg></app-combined-eg>
+      </tab>
+      <tab heading="Knowledge Break">
+        <app-knowledge-break></app-knowledge-break>
+      </tab>
+      <tab heading="Concentration Break">
+        <app-concentration-break></app-concentration-break>
+      </tab>
+    </tabset>
+  </div>
+
+</div>

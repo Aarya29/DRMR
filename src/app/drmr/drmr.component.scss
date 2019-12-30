@@ -1,0 +1,36 @@
+.nav-tabs> .active > a {
+    border-bottom-color: #1a4280;
+    border-bottom-width: 2px;
+  
+    &:focus, &:hover {
+      border-bottom-color: #1a4280;
+      border-bottom-width: 2px;
+    }
+  
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  
+    &:focus, &:hover {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+    }
+  }
+
+  #button-basic{
+    border: 1px solid #000;
+  }
+
+.moduleSelect span{
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.moduleSelect .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+

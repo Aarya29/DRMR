@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'DRMR';
+  title = 'app';
+
+  constructor(private router: Router) {}
+
+  routeMe(value) {
+    console.log(value);
+    // this.router.navigate([value]);
+  }
+  setPreference(preference){
+    console.log(preference);
+  }
 }
